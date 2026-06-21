@@ -44,6 +44,11 @@ Data was cleaned and prepared using SQL by removing duplicates, standardizing re
 ## Power BI Dashboard
 The dashboard covers sales performance, customer distribution by state, product category revenue, seller performance, monthly sales trends, and delivery performance compared to customer reviews.
 
+![Alternative Text](URL_or_Path_to_Image)
+
+![Dashboard](<olist dashboard.png>)
+
+
 ## Key Insights
 
 ### Customer Distribution by State
