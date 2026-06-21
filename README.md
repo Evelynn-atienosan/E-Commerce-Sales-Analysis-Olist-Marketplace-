@@ -42,7 +42,8 @@ Relationships:
 Data was cleaned and prepared using SQL by removing duplicates, standardizing relationships using primary and foreign keys, validating referential integrity, and ensuring consistent data types. Tables were joined to support analysis in Power BI.
 
 ## Power BI Dashboard
-The dashboard covers sales performance, customer distribution by state, product category revenue, seller performance, monthly sales trends, and delivery performance compared to customer reviews.
+The dashboard covers sales performance,product category revenue, seller performance, and monthly sales trends 
+
 
 ![Alternative Text](URL_or_Path_to_Image)
 
