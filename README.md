@@ -3,13 +3,13 @@
 ## Project Overview
 This project analyzes the Olist E-Commerce dataset to understand key drivers of sales performance in an online marketplace.
 
-The goal is to uncover insights around revenue, customers, sellers, products, and delivery performance using SQL and Power BI.
+The goal is to uncover insights around revenue, customers, sellers and products  using SQL and Power BI.
 
 The analysis focuses on answering:
 
 - What drives sales performance in the marketplace?
 - How do customers, sellers, and product categories contribute to revenue?
-- How does delivery performance affect customer satisfaction?
+- Which year has the highest sales performance?
 
 ## Dataset
 - Source: Olist Brazilian E-Commerce Dataset (Kaggle)
@@ -34,42 +34,45 @@ Relationships:
 
 ## Key Metrics
 - Product Revenue = SUM(price)  
-- Total Revenue (GMV) = SUM(price + freight_value)  
+- Total Gross Revenue = SUM(price + freight_value) 
+- Total Product Revenue = SUM(price) 
 - Average Order Value (AOV) = Total revenue / number of orders  
 - Order Count = COUNT(order_id)  
 
 ## Data Preparation
-Data was cleaned and prepared using SQL by removing duplicates, standardizing relationships using primary and foreign keys, validating referential integrity, and ensuring consistent data types. Tables were joined to support analysis in Power BI.
+Data was loaded into sql using python then cleaned and prepared using SQL by removing duplicates, standardizing relationships using primary and foreign keys, validating referential integrity, and ensuring consistent data types.Tables were imported into PowerBI for visualization.
 
 ## Power BI Dashboard
-The dashboard covers sales performance,product category revenue, seller performance, and monthly sales trends 
+The dashboard covers sales performance by state, product category revenue, seller performance, and monthly sales trends 
 
 
-![Alternative Text](URL_or_Path_to_Image)
 
 ![Dashboard](<olist dashboard.png>)
 
 
 ## Key Insights
 
-### Customer Distribution by State
-São Paulo (SP) has the highest number of customers and also generates the highest sales, making it the most important region for the marketplace.
+### São Paulo leads in revenue
+SP is the top-contributing state to gross revenue by a significant margin.
 
-### Product Category Performance
-Health & Beauty generates the highest revenue, Computers has the highest average order value, and Bed & Bath records the highest number of orders.
+### Health & beauty drives the most revenue
+It is the top performing product category, followed by watches & gifts and bed, bath & table.
 
-Each category contributes differently to performance through revenue, value, or volume.
+### Top sellers contribute the most
+A small number of sellers generate a large portion of total revenue.
 
-### Seller Performance
-One seller generated the highest revenue while another recorded the highest number of products sold. This shows the difference between high-value and high-volume sellers.
+### Sales trend shows a drop
+Revenue remained stable from January to August but dropped sharply in September.
 
-### Monthly Sales Trends
-Sales peaked in January, March, April, and May 2018, with April recording the highest revenue, suggesting seasonal demand patterns.
-
-### Delivery Performance and Customer Satisfaction
-Late deliveries are associated with lower review scores, showing that delivery performance directly affects customer satisfaction and repeat purchases.
+### 2018 is the strongest year
+It contributes 54.56% of total gross revenue.
 
 ## Business Recommendations
-Focus marketing efforts on São Paulo due to its strong customer base, improve logistics to reduce delivery delays, invest further in Health & Beauty as the top revenue category, optimize pricing and promotions in Computers due to high order value, strengthen seller support programs, and use seasonal trends to guide marketing and inventory planning.
 
+- Focus marketing efforts and customer acquisition strategies in high-performing states such as São Paulo to maximize revenue growth.
 
+- Increase investment in high-performing product categories such as Health & Beauty and Watches & Gifts to capitalize on strong customer demand.
+
+- Strengthen relationships with top-performing sellers while providing support and incentives to help emerging sellers grow their sales.
+
+- Investigate the sharp decline in sales between August and September to identify underlying causes and implement measures to sustain sales performance.
