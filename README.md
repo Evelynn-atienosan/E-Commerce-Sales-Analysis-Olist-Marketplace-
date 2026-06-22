@@ -47,7 +47,7 @@ The dashboard covers sales performance by state, product category revenue, selle
 
 
 
-![Dashboard](<olist dashboard.png>)
+![Dashboard](<c:\Users\hp\Pictures\olist dashboard.png>) 
 
 
 ## Key Insights
