@@ -61,6 +61,5 @@ The data shows the business grew incredibly fast over a three-year period.
 
 
 
-![Dashboard](<
->)
+![Dashboard](<https://github.com/Evelynn-atienosan/E-Commerce-Sales-Analysis-Olist-Marketplace-/blob/main/images.png/Olist_dashboard_overview.png?raw=true>)
 
